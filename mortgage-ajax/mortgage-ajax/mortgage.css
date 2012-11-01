@@ -1,0 +1,165 @@
+/* Base Styles */
+#mortgage-calculator {
+	padding: 7px;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 1.7em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font: bold 1.5em Georgia, "Times New Roman", Times, serif;
+	color: #003300;
+}
+
+/* Forms */
+form {
+margin : 0;
+padding : 0;
+}
+
+fieldset, .mortgage-totals {
+margin : 0 1em 0 0;
+padding : 1em;
+border : 1px solid #ccb7b5;
+background : #F2F9F1;
+font-family : "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+font-size : .8em;
+color : #333;
+text-align : left;
+width:25em; 
+}
+
+fieldset div br {
+display : none;
+}
+
+fieldset div input {
+border-top : 1px solid #e2cbc9;
+border-right : 1px solid #e9d8d7;
+border-bottom : 1px solid #f0e5e4;
+border-left : 1px solid #e9d8d7;
+padding : 1px;
+}
+
+legend {
+font-weight : bold;
+color : #333;
+margin : 0;
+padding : 0.5em;
+font-size : 1.0em;
+}
+
+label {
+display : block;
+}
+
+#fm-submit {
+clear : both;
+padding-top : 1em;
+}
+
+fieldset div {
+width : 99%;
+border-top : 1px solid #ccb7b5;
+border-right : 1px solid #a99897;
+border-bottom : 1px solid #716665;
+border-left : 1px solid #a99897;
+margin : 0;
+padding : 1px 1px 1px 1em;
+background: #DEF0DB;
+}
+
+.mortgage-totals h4 {margin:0; padding:0;}
+
+.mortgage-totals div {
+width : 95%;
+border-top : 1px solid #ccb7b5;
+border-right : 1px solid #a99897;
+border-bottom : 1px solid #716665;
+border-left : 1px solid #a99897;
+margin : 0;
+padding : 1px 1px 1px 1em;
+background: #FFF;
+}
+
+/* Tables */
+#mortgage-calculator table { 
+	font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#mortgage-calculator caption {
+	/* kick the text */
+	text-indent: -50000px;
+	height: 33px;
+}
+
+#mortgage-calculator .first_table caption {
+	background: url(/components/com_mortgage/images/ttitle.png) no-repeat 125px bottom;
+	/* kick the text */
+	text-indent: -50000px;
+	height: 33px;
+	padding: 20px 20px 0px 20px;
+}
+
+#mortgage-calculator thead {
+	background: url(/components/com_mortgage/images/thead_bg.png);
+	height: 26px;
+	color: White;
+	padding: 0 5px 0 5px;
+}
+
+#mortgage-calculator table {
+	background: url(/components/com_mortgage/images/tbody.png);
+}
+
+#mortgage-calculator tbody td {
+	border-right: 1px solid #E3F1C7;
+	padding: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ABD555;
+	border-top: 1px solid #ABD555;
+	text-align: center;
+}
+
+#mortgage-calculator tbody .odd td {
+	background: url(/components/com_mortgage/images/odd.png);
+}
+
+#mortgage-calculator tbody th {
+	background: url(/components/com_mortgage/images/th.png) repeat-y top right;
+	padding: 15px;
+	padding-right: 25px;
+	border-bottom: 1px solid #93C331;
+}
+
+#mortgage-calculator a {
+	color: #485F18;
+}
+
+#mortgage-calculator tfoot .mortgage-amort-bottom {
+	background: url(/components/com_mortgage/images/tfoot.png);
+	height: 25px;
+	color: White;
+}
+#mortgage-calculator tfoot .mortgage-amort-bottom td {
+	padding-left:1em;
+}
+#mortgage-calculator td.mort_summary {
+	background: url(/components/com_mortgage/images/odd.png);
+	padding: 1em 1em 1em 3em;
+	border-bottom: 1px solid #ABD555;
+}
+
+#mortgage-calculator th {
+	text-align: center;
+}
+
+#mortgage-calculator tbody tr:hover td,#mortgage-calculator tbody tr:hover th {
+	background: url(/components/com_mortgage/images/tr_hover.png) repeat-x left bottom;
+	border-bottom: none;
+}

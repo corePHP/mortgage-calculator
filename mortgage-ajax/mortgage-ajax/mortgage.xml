@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5">
+	<name>mortgage</name>
+	<creationDate>June 2006</creationDate>
+	<author>Steven Pignataro and Jonathan Shroyer</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>support@corephp.com</authorEmail>
+	<authorUrl>www.corephp.com</authorUrl>
+	<version>1.5</version>
+	
+	<description>Mortgage Calculator</description>
+
+	<files>
+		<filename>jquery.js</filename>
+		<filename>mortgage.php</filename>
+		<filename>mortgage.css</filename>
+		<filename>images/odd.png</filename>
+		<filename>images/tbody.png</filename>
+		<filename>images/tfoot.png</filename>
+		<filename>images/th.png</filename>
+		<filename>images/thead_bg.png</filename>
+		<filename>images/tr_hover.png</filename>
+		<filename>images/ttitle.png</filename>
+	</files>
+<!--<installfile>
+	<filename>install.mortgage.php</filename>
+</installfile>
+<uninstallfile>
+	<filename>uninstall.mortgage.php</filename>
+</uninstallfile>-->
+
+<administration>
+	<menu>Mortgage Calculator</menu>
+	<files>
+		<filename>admin.mortgage.php</filename>
+		<filename>admin.mortgage.html.php</filename>
+		<filename>toolbar.mortgage.php</filename>
+		<filename>toolbar.mortgage.html.php</filename>
+		<filename>images/corephp.gif</filename>
+	</files>
+</administration>
+<uninstall />
+</install>
